@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container {
+   width:400px;
+   height:auto;
+   margin:40px auto;
+   background-color:#1A1B21;
+   border-radius: 10px;
+}
+
+/* =====================
+        LAYOUT
+===================== */
+body{
+    width:100%;
+    min-height:100vh;
+    background-color:#23252c;
+    display:grid;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Inter', sans-serif;
+    color:#fff;
+}
+
+header{
+    text-align: center;
+    margin-bottom:33px;
+}
+
+section{
+    padding: 0px 30px;
+    margin-bottom:10px;
+}
+
+.interests {
+    margin-bottom:30px;
+}
+
+footer {
+    background-color:#161619;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border-radius:0px 0px 10px 10px;
+}
+/* =====================
+        TYPOGRAPHY
+===================== */
+h1{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom:4px;
+}
+
+h2{
+    color:#00e2cc;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom:5px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 12.8px;
+    color:#00e2cc;
+    margin-bottom:10px;
+}
+
+p{
+    color:#DCDCDC;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+/* =====================
+     IMAGES / ICONS
+===================== */
+.portfolio-img{
+    width:100%;
+    max-height:350px;
+    object-fit: cover;
+    object-position: 0px -50px;
+    border-radius:10px 10px 0px 0px;
+}
+
+
+.btn i {
+    margin-right:10px;
+    width:16px;
+}
+
+footer i{
+    color:#918E9B;
+    margin-right:20px;
+    font-size:25px;
+    transition:all 0.5s;
+}
+
+footer i:hover{
+    color:#00e2cc;
+}
+/* =====================
+        BUTTONS
+===================== */
+.btn-container {
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.btn{
+    padding: 0.5em 1.5em;
+    border-radius:6px;
+    border:none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    transition:all 0.5s;
+    cursor:pointer;
+}
+
+.email-btn{
+    background:#fff;
+    color:#374151;
+}
+
+.email-btn:hover {
+    background-color:#918E9B;
+    color:#fff;
+}
+
+.linkedin-btn{
+    background:#0098e3;
+    color:#fff;
+}
+
+.linkedin-btn:hover{
+    background:#0271b1;
+}
