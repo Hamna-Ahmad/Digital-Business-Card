@@ -1,4 +1,4 @@
-# Gigital Business Card
+# Digital Business Card
 This is a simple React application that showcases a personal portfolio website. It consists of multiple components that are rendered in the main App component.
 
 ## Installation
